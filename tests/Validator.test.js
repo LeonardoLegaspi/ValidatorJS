@@ -70,6 +70,7 @@ test('the email inputed has the right format', ()=>{
     expect(Validator.isEmail("this.Email@gmail.com")).toBe(true)
     expect(Validator.isEmail("this-Email@gmail.com")).toBe(true)
     expect(Validator.isEmail("this_Email@gmail.com")).toBe(true)
+    expect(Validator.isEmail("this_Email@gmail.com.mx")).toBe(true)
 })
 
 //--------------------->isPhone<-----------------------
