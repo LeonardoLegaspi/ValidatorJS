@@ -1,0 +1,22 @@
+{
+  "name": "Validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Validator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "babel-install": "^2.1.0"
+  }
+}
