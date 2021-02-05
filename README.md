@@ -13,7 +13,7 @@ console.log(Validator.isEmpty(name)) //true
 
 ## Features
 
-* `isEmtpy()`: This function can check for empty strings, objects, arrays and `undefined` and `null` values. It returns a `true` if the data is empty, the following are the empty values considered:
+* `isEmtpy()`: This function can check for empty strings, objects, arrays and `undefined` and `null` values. It returns a `true` if the data is empty and a `false` if it's not, the following are the empty values considered:
     * `string =  ""`
     * `object = {}`
     * `array = []`
