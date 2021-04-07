@@ -3,14 +3,15 @@
 This JavaScript validator is a simple data validation system which can be used in text-input validation.
 Including JavaScript Validator will provide you with a set of functions to call in order to recieve a boolean value whether the data sent to the function complies with the library validation criteria.
 
-<code>
-import Validator from './Validator' 
 
-let name = "" 
-if(Validator.isEmpty(name)){
-&nbsp; &nbsp; foo()
-}
-</code>
+```javascript 
+import Validator from './Validator'
+
+let name = ""
+
+console.log(Validator.isEmpty(name)) //true
+```
+
 
 ## Features
 
